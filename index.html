@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State of Texas</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>Welcome to Texas</header>
+    <div id="texas">
+        <img id="texas-longhorns" src="texas-longhorns.png" alt="A photo of Texas longhorns" />
+        <a href="https://www.texas.gov/" target="_blank"><img id="texas-icon" src="texas-icon.png"
+                alt="Texas icons created by Good Ware - Flaticon" />
+            <span class="link">Visit Texas.gov</span></a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="austin.html">Austin</a>
+            <a href="houston.html">Houston</a>
+            <a href="san-antonio.html">San Antonio</a>
+            <a href="help.html">Help</a>
+        </nav>
+    </div>
+
+    <aside class="main-page">
+        <h2>Related Contents</h2>
+        <a href="https://www.traveltexas.com/things-to-do/" target="_blank">
+            <p>Fun things to do in Texas!</p>
+            <span class="link">https://www.traveltexas.com/things-to-do/</span>
+        </a>
+        <a href="https://www.sos.state.tx.us/elections/voter/elected.shtml" target="_blank">
+            <p>Texas Statewide Elected Officials</p>
+            <span class="link">https://www.sos.state.tx.us/elections/voter/elected.shtml</span>
+        </a>
+        <a href="https://www.texastribune.org/" target="_blank">
+            <p>The Texas Tribune</p>
+            <span class="link">https://www.texastribune.org/</span>
+        </a>
+
+        <ol>
+            <h2>FAQs</h2>
+            <li>How big is Texas?</li>
+            <li>Is it hot in Texas?</li>
+            <li>Best city to live in Texas</li>
+        </ol>
+    </aside>
+
+    <section>
+        <h2>About Texas</h2>
+        <p>Texas, known as the Lone Star State, is the second largest in the U.S.
+            Known for its vast landscapes, diverse cities like Houston and Austin, and rich cultural history,
+            it blends Western charm with modern innovation.</p>
+    </section>
+
+    <div id="photo-gallery">
+        <img id="texas-photos" src="Texas Photo 1.jpg" alt="Texas landmark" />
+        <p id="photo-caption">Texas Capitol</p>
+        <div class="buttons">
+            <button id="prev" onclick="changeImage(-1)">Previous</button>
+            <button id="prev" onclick="changeImage(1)">Next</button>
+        </div>
+        <script src="script.js"></script>
+    </div>
+    
+</body>
+
+</html>
